@@ -19,7 +19,7 @@ body {
 }
 
 .fund {
-	background-image: url("../image/Linguagem-de-Programação-Java-2.jpg");
+	/* background-image: url("../image/Linguagem-de-Programação-Java-2.jpg"); */
 	background-size: cover;
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -94,14 +94,20 @@ h4 {
 }
 
 .container {
-	height: 65vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
 	
 }
 
 .img {
+
 	max-width: 100%;
 	height: auto;
 	margin: 0px 0px 20px;
+	
 }
 
 .dic {
